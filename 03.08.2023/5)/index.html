@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5)</title>
+  </head>
+  <body>
+    <script>
+      function Boolen(num1, num2) {
+        const lastDigitNum1 = num1 % 10;
+        const lastDigitNum2 = num2 % 10;
+        return lastDigitNum1 === lastDigitNum2;
+      }
+      console.log(Boolen(123, 453));
+      console.log(Boolen(456, 789));
+      console.log(Boolen(10, 25));
+      console.log(Boolen(15, 25));
+    </script>
+  </body>
+</html>

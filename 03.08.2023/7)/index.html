@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7)</title>
+  </head>
+  <body>
+    <script>
+      function calculateSquareArea(sideLength) {
+        if (sideLength <= 0) {
+          return "Side length must be a positive number.";
+        }
+        return sideLength * sideLength;
+      }
+      console.log(calculateSquareArea(5));
+      console.log(calculateSquareArea(10));
+      console.log(calculateSquareArea(-2));
+    </script>
+  </body>
+</html>
